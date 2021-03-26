@@ -1,6 +1,6 @@
 # space-invaders-game
 Little space invaders style game just for fun
 
-![instructions](./images/instructions.png)
+![instructions](./docs/images/instructions.png)
 
-![space invaders](./images/game.png)
+![space invaders](./docs/images/game.png)
