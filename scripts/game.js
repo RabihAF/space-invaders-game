@@ -99,7 +99,7 @@ function drawInstructions() {
 }
 
 function drawPreInstructions(y) {
-    ctx.fillText('Little Space Invaders style game just for fun, developed by me ;-)', canvasWidth / 2, canvasHeight / 2 - keyboardImage.height + y)
+    ctx.fillText('A little game just for fun, made by me!', canvasWidth / 2, canvasHeight / 2 - keyboardImage.height + y)
     ctx.fillText('Instructions', canvasWidth / 2, canvasHeight / 2 - keyboardImage.height + 40 + y)
     ctx.fillText('D or right arrow to move right', canvasWidth / 2, canvasHeight / 2 - keyboardImage.height + 60 + y)
     ctx.fillText('A or left arrow to move left', canvasWidth / 2, canvasHeight / 2 - keyboardImage.height + 80 + y)
@@ -112,7 +112,7 @@ function drawPreInstructions(y) {
 function drawPostInstructions(y) {
     if (mobileBrowser) {
         ctx.fillStyle = '#FF0000'
-        ctx.fillText("Sorry this game doen't support mobile phones!", canvasWidth / 2, canvasHeight / 2 + keyboardImage.height - 140 + y)
+        ctx.fillText("Sorry mobile devices not supported!", canvasWidth / 2, canvasHeight / 2 + keyboardImage.height - 140 + y)
         ctx.fillStyle = '#FFFFFF'
         ctx.fillText('Try it on your laptop', canvasWidth / 2, canvasHeight / 2 + keyboardImage.height - 100 + y)
     } else {
