@@ -9,4 +9,4 @@ Little space invaders style game just for fun
 This game was only tested on a chrome desktop browser
 
 ## Demo
-https://rabihaf.github.io/fun.html
+https://rabihaf.github.io/game.html
